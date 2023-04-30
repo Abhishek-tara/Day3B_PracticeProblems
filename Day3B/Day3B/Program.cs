@@ -18,8 +18,13 @@
             //Console.WriteLine("Copy Constructor : " + construct.Hp);
 
             //Interface
-            Program demo = new Program();
-            demo.InterfaceMetthod();
+            //Program demo = new Program();
+            //demo.InterfaceMetthod();
+
+            //Access Modifiers
+            InternalDemo car = new InternalDemo();
+            Console.WriteLine(car.brand);
+            
         }
     }
 }
